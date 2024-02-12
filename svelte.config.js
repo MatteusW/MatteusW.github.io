@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
     paths: {
-			base: "matteus.art"
+			base: ""
 		},
     prerender: {
       handleHttpError: 'warn'
