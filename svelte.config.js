@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
     paths: {
-			base: process.argv.includes('dev') ? '' : 'm1nxy.xyz'
+			base: "matteus.art"
 		},
     prerender: {
       handleHttpError: 'warn'
