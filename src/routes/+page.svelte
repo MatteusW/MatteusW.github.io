@@ -1,5 +1,5 @@
 <script lang="ts">
-  let greeting: string = "Hello World!";
+  let greeting: string = "Matteus!";
 </script>
 
 <svelte:head>
