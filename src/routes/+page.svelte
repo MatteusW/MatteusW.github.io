@@ -13,8 +13,10 @@
 <main
   class="w-full h-auto py-1 p-4 bg-white mx-a max-w-180 lg:max-w-250 flex flex-col justify-between"
 >
-  <div class="flex flex-col justify-between w-full my-2xl gap-8 max-w-200 mx-a">
-    <h1 class="text-2xl sm:text-3xl font-900 text-center md:text-left mx-a">
+  <div class="flex flex-col justify-between w-full my-2xl gap-2 max-w-200 mx-a">
+    <h1
+      class="text-2xl sm:text-3xl font-900 text-center md:text-left mx-a my-4"
+    >
       Matteus J.A Watson
     </h1>
     <div class="flex flex-col justify-between w-full gap-2">
@@ -50,18 +52,18 @@
       </div>
     </div>
     <div class="flex">
-      <a href="/kraith" class="flex items-center">
-        <p class="text-lg">Visit Kraith</p>
+      <a href="/kraith" class="flex items-center text-sm">
+        <p>Visit Kraith</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-arrow-right"
-          width="24"
-          height="24"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
           fill="none"
-          stroke-linecap="round"
+          stroke-linecap="butt"
           stroke-linejoin="round"
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
