@@ -17,8 +17,21 @@
     <h1 class="text-2xl sm:text-3xl font-900 text-center md:text-left mx-a">
       Matteus J.A Watson
     </h1>
-    <div class="flex flex-col-reverse justify-between w-full gap-8">
-      <div class="flex flex-col gap-4 text-sm">
+    <div class="flex flex-col justify-between w-full gap-2">
+      <figure class="h-auto flex flex-col">
+        <img
+          src="/assets/Social_anxiety.webp"
+          alt="Social Anxiety"
+          width="100%"
+          height="auto"
+          class="z-2 outline outline-1 outline-black/20 shadow-md h-full bg-body-900 fade-in"
+        />
+        <figcaption class="text-sm">
+          Social Anxiety 2023 • Acrylic on Drywall • 247cm x 195cm
+        </figcaption>
+      </figure>
+      <hr class="my-1" />
+      <div class="flex flex-col gap-2 text-sm">
         <p>
           Consequatur vitae id excepturi temporibus et veniam voluptas. Nesciunt
           ut velit aut vitae. Molestias dicta alias quaerat laudantium enim
@@ -34,15 +47,6 @@
           molestias excepturi qui consequuntur. Ipsa quisquam repellendus aut
           sapiente.
         </p>
-      </div>
-      <div class="relative w-full flex-shrink-0 group relative h-min">
-        <img
-          src="/assets/Social_anxiety.webp"
-          alt="Social Anxiety"
-          width="100%"
-          height="auto"
-          class="z-2 outline outline-1 outline-black/20 shadow-md h-full bg-body-900 fade-in"
-        />
       </div>
     </div>
     <div class="flex">
