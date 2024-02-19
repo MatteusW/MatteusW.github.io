@@ -80,7 +80,7 @@
       <a href="/gallery">Gallery</a>
     </li>
     <li>
-      <a href="/exhibits/kraith">Kraith</a>
+      <a href="/kraith">Kraith</a>
     </li>
     <li>
       <a href="/contact">Contact</a>
