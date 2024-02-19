@@ -95,6 +95,6 @@
   nav {
     border-bottom-style: dashed;
     border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.08);
   }
 </style>
