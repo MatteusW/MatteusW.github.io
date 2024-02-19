@@ -26,7 +26,7 @@
           height="auto"
           class="z-2 outline outline-1 outline-black/20 shadow-md h-full bg-body-900 fade-in"
         />
-        <figcaption class="text-sm">
+        <figcaption class="text-sm pt-1">
           Social Anxiety 2023 • Acrylic on Drywall • 247cm x 195cm
         </figcaption>
       </figure>
