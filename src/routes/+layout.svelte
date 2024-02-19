@@ -10,6 +10,10 @@
     name="twitter:card"
     content="https://matteus.art/assets/Social_anxiety.webp"
   />
+  <meta
+    property="og:image"
+    content="https://matteus.art/assets/Social_anxiety.webp"
+  />
   <meta name="twitter:site" content="https://matteus.art/" />
   <link rel="icon" href="favicon.png" />
 </svelte:head>
