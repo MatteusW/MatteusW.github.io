@@ -11,7 +11,7 @@
     content="https://matteus.art/assets/Social_anxiety.webp"
   />
   <meta
-    property="og:image"
+    property="twitter:image"
     content="https://matteus.art/assets/Social_anxiety.webp"
   />
   <meta name="twitter:site" content="https://matteus.art/" />
