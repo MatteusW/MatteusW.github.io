@@ -4,14 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@unocss/reset':
-    specifier: ^0.58.5
-    version: 0.58.5
-  svelte-carousel:
-    specifier: ^1.0.25
-    version: 1.0.25
-
 devDependencies:
   '@sveltejs/adapter-static':
     specifier: ^1.0.6
@@ -23,6 +15,9 @@ devDependencies:
     specifier: ^0.58.5
     version: 0.58.5
   '@unocss/preset-wind':
+    specifier: ^0.58.5
+    version: 0.58.5
+  '@unocss/reset':
     specifier: ^0.58.5
     version: 0.58.5
   concurrently:
@@ -37,9 +32,6 @@ devDependencies:
   svelte-check:
     specifier: ^3.0.1
     version: 3.6.2(@babel/core@7.23.9)(postcss@8.4.31)(sass@1.71.0)(svelte@3.59.2)
-  svelte-hamburgers:
-    specifier: ^4.2.0
-    version: 4.2.0(svelte@3.59.2)
   tslib:
     specifier: ^2.4.1
     version: 2.6.2
@@ -915,6 +907,7 @@ packages:
 
   /@unocss/reset@0.58.5:
     resolution: {integrity: sha512-2wMrkCj3SSb5hrx9TKs5jZa34QIRkHv9FotbJutAPo7o8hx+XXn56ogzdoUrcFPJZJUx2R2nyOVbSlGMIjtFtw==}
+    dev: true
 
   /@unocss/rule-utils@0.58.5:
     resolution: {integrity: sha512-w0sGJoeUGwMWLVFLEE9PDiv/fQcQqZnTIIQLYNCjTdqXDRlwTp9ACW0h47x/hAAIXdOtEOOBuTfjGD79GznUmA==}
@@ -1232,14 +1225,6 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: true
 
-  /easy-reactive@1.0.4:
-    resolution: {integrity: sha512-dFVouegPctMf6XT5si+sRByBWUQE30n99TW0Y45Y7mccmNsbSl4uXA2sBGI8zCDZqXjhb8ouA3wVVhSSGpXk5Q==}
-    dependencies:
-      lodash.clonedeep: 4.5.0
-      lodash.get: 4.4.2
-      lodash.isequal: 4.5.0
-    dev: false
-
   /electron-to-chromium@1.4.673:
     resolution: {integrity: sha512-zjqzx4N7xGdl5468G+vcgzDhaHkaYgVcf9MqgexcTqsl2UHSCmOj/Bi3HAprg4BZCpC7HyD8a6nZl6QAZf72gw==}
     dev: true
@@ -1540,18 +1525,6 @@ packages:
     dependencies:
       p-locate: 5.0.0
     dev: true
-
-  /lodash.clonedeep@4.5.0:
-    resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
-    dev: false
-
-  /lodash.get@4.4.2:
-    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
-    dev: false
-
-  /lodash.isequal@4.5.0:
-    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
-    dev: false
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -1975,12 +1948,6 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-carousel@1.0.25:
-    resolution: {integrity: sha512-vR/AbGYwlh3fgWaB5PJg+iqZFvoVCJq4JWdmlXvPtdG9TLlKJWBcoiKlMZt3MnFF7AqNW46tOH/O+uVMWQzyWQ==}
-    dependencies:
-      easy-reactive: 1.0.4
-    dev: false
-
   /svelte-check@3.6.2(@babel/core@7.23.9)(postcss@8.4.31)(sass@1.71.0)(svelte@3.59.2):
     resolution: {integrity: sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==}
     hasBin: true
@@ -2006,14 +1973,6 @@ packages:
       - sass
       - stylus
       - sugarss
-    dev: true
-
-  /svelte-hamburgers@4.2.0(svelte@3.59.2):
-    resolution: {integrity: sha512-6Iq0uHXHeQZMvsn6Ft84qdSpf+PfmhwdyuSVoJeGHG6UfazB5ffJoMmahs9y9THAtvnBl+Hzus5BOy80PzWy0w==}
-    peerDependencies:
-      svelte: ^3.46.4 || ^4.0.0
-    dependencies:
-      svelte: 3.59.2
     dev: true
 
   /svelte-hmr@0.15.3(svelte@3.59.2):
