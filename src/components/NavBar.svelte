@@ -14,7 +14,7 @@
   }
 </script>
 
-<nav class="p-2 sm:hidden grid">
+<nav class="p-2 sm:hidden grid bg-white">
   <div class="grid-cols-2 grid items-center">
     <ul class="list-none flex flex-row gap-2 m-0 p-0">
       <li>
@@ -69,7 +69,7 @@
   {/if}
 </nav>
 
-<nav class="grid-cols-2 p-2 hidden sm:grid">
+<nav class="grid-cols-2 p-2 hidden sm:grid bg-white">
   <ul class="list-none flex flex-row gap-2 m-0 p-0">
     <li>
       <a href="/">Home</a>
@@ -95,6 +95,6 @@
   nav {
     border-bottom-style: dashed;
     border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.08);
+    border-color: #96ad8e3c;
   }
 </style>

@@ -1,19 +1,23 @@
 <script lang="ts">
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <svelte:head>
   <title>Matteus Watson</title>
-  <meta name="description" content="some stuff goes here TODO:" />
-  <meta name="" content="" />
+  <meta
+    name="description"
+    content="Hi I'm Matteus Watson. I'm an artist, this is my portfolio."
+  />
 </svelte:head>
-<main class="w-full py-1 p-4 my-2xl md:my-7xl lg:my-[10%]">
-  <div class="flex flex-col justify-between w-full gap-8 max-w-7xl mx-a">
-    <h1
-      class="text-2xl sm:text-3xl lg:text-4xl font-900 text-center md:text-left"
-    >
+
+<main
+  class="w-full h-auto py-1 p-4 bg-white mx-a max-w-180 lg:max-w-250 flex flex-col justify-between"
+>
+  <div class="flex flex-col justify-between w-full my-2xl gap-8 max-w-200 mx-a">
+    <h1 class="text-2xl sm:text-3xl font-900 text-center md:text-left mx-a">
       Matteus J.A Watson
     </h1>
-    <div class="flex flex-col-reverse md:flex-row justify-between w-full gap-8">
+    <div class="flex flex-col-reverse justify-between w-full gap-8">
       <div class="flex flex-col gap-4 text-sm">
         <p>
           Consequatur vitae id excepturi temporibus et veniam voluptas. Nesciunt
@@ -31,9 +35,7 @@
           sapiente.
         </p>
       </div>
-      <div
-        class="relative w-full md:max-w-[390px] flex-shrink-0 group relative h-min"
-      >
+      <div class="relative w-full flex-shrink-0 group relative h-min">
         <img
           src="/assets/Social_anxiety.webp"
           alt="Social Anxiety"
@@ -66,6 +68,7 @@
       </a>
     </div>
   </div>
+  <Footer />
 </main>
 
 <style lang="scss">
