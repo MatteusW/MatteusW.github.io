@@ -11,9 +11,15 @@
     content="https://matteus.art/assets/Social_anxiety.webp"
   />
   <meta
-    property="twitter:image"
+    name="twitter:image:src"
     content="https://matteus.art/assets/Social_anxiety.webp"
   />
+  <meta
+    property="og:image"
+    content="https://matteus.art/assets/Social_anxiety.webp"
+  />
+  <meta property="og:image:width" content="6000" />
+  <meta property="og:image:height" content="3325" />
   <meta name="twitter:site" content="https://matteus.art/" />
   <link rel="icon" href="favicon.png" />
 </svelte:head>
