@@ -1,19 +1,11 @@
-<main class="w-full py-1 h-full"></main>
+<div class="max-w-160">
+  <h1 class="text-2xl lg:text-2xl">Gallery</h1>
+  <div class="flex flex-row gap-3">
+    <img src="https://picsum.photos/200/300?random=1" />
+    <img src="https://picsum.photos/200/300?random=1" />
+    <img src="https://picsum.photos/200/300?random=1" />
+  </div>
+</div>
 
 <style lang="scss">
-  .gallery {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 200px;
-    grid-auto-flow: dense;
-  }
-
-  .wide {
-    grid-column: span 2;
-  }
-
-  .tall {
-    grid-row: span 2;
-  }
 </style>
