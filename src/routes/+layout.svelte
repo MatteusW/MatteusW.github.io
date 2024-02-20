@@ -8,11 +8,8 @@
 
 <svelte:head>
   <meta name="twitter:card" content="https://matteus.art/favicon.png" />
-  <meta
-    name="twitter:image:src"
-    content="https://matteus.art/assets/favicon.png"
-  />
-  <meta property="og:image" content="https://matteus.art/assets/favicon.png" />
+  <meta name="twitter:image:src" content="https://matteus.art/favicon.png" />
+  <meta property="og:image" content="https://matteus.art/favicon.png" />
   <meta property="og:image:width" content="6000" />
   <meta property="og:image:height" content="3325" />
   <meta name="twitter:site" content="https://matteus.art/" />
