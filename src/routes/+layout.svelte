@@ -7,22 +7,15 @@
 </script>
 
 <svelte:head>
-  <meta
-    name="twitter:card"
-    content="https://matteus.art/assets/Social_anxiety.webp"
-  />
+  <meta name="twitter:card" content="https://matteus.art/favicon.png" />
   <meta
     name="twitter:image:src"
-    content="https://matteus.art/assets/Social_anxiety.webp"
+    content="https://matteus.art/assets/favicon.png"
   />
-  <meta
-    property="og:image"
-    content="https://matteus.art/assets/Social_anxiety.webp"
-  />
+  <meta property="og:image" content="https://matteus.art/assets/favicon.png" />
   <meta property="og:image:width" content="6000" />
   <meta property="og:image:height" content="3325" />
   <meta name="twitter:site" content="https://matteus.art/" />
-  <link rel="icon" href="favicon.png" />
 </svelte:head>
 
 <div class="h-screen w-screen flex flex-col bg-[#96ad8e] overflow-x-hidden">

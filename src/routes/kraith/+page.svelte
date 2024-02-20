@@ -10,7 +10,7 @@
   <div
     class="max-w-none prose prose-a:text-pink-400 dark:prose-invert text-justify"
   >
-    <p>Kraith and pagkura lorem ipsum bla bla bla</p>
+    <p>Kraith and pagkura lorem ipsum</p>
     <figure>
       <img
         src="/assets/social_anxiety.webp"
@@ -20,7 +20,7 @@
       />
       <figcaption>Social Anxiety image</figcaption>
     </figure>
-    <p>Kraith and pagkura lorem ipsum bla bla bla</p>
+    <p>Kraith and pagkura lorem ipsum</p>
   </div>
   <div class="w-full overflow-x-hidden">
     <p>
