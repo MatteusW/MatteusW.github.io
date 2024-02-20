@@ -15,8 +15,8 @@
 <div class="flex flex-col justify-between w-full gap-2">
   <figure class="h-auto flex flex-col">
     <img
-      src="/assets/social_anxiety.webp"
-      alt="Social Anxiety"
+      src="/assets/stop.webp"
+      alt="Stop 2023"
       width="100%"
       height="auto"
       class="z-2 outline outline-1 outline-black/20 shadow-md h-full bg-body-900 fade-in"
