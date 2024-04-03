@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+
+const post = (await getCollection("exhibits"))
+  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
+  .at(-1);
+
+if (!post) return;
+const { Content } = await post.render();
+---
+
+{
+  post && (
+    <BlogPost {...post.data}>
+      <Content />
+    </BlogPost>
+  )
+}
