@@ -61,10 +61,10 @@
 				}}
 			>
 				<li>
-					<HeaderLink href="/blog">Blog</HeaderLink>
+					<HeaderLink href="/exhibits/latest">Latest Exhibit</HeaderLink>
 				</li>
 				<li>
-					<HeaderLink href="/about">About</HeaderLink>
+					<HeaderLink href="/exhibits">Exhibits</HeaderLink>
 				</li>
 			</ul>
 		{/if}
