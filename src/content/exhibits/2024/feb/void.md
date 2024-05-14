@@ -2,7 +2,7 @@
 title: 'Void'
 description: 'A silhouette of a human figure falling through a white void'
 pubDate: '23 February 2024'
-image: '/assets/2024/feb/void.webp'
+image: '/assets/2024/feb/void-cover.webp'
 offset: 'bottom'
 ---
 

@@ -2,7 +2,7 @@
 title: 'Help'
 description: 'A white silhouette in black void reaching upwards'
 pubDate: '03 January 2024'
-image: '/assets/2024/jan/help.webp'
+image: '/assets/2024/jan/help-cover.webp'
 offset: 'centre'
 ---
 

@@ -2,7 +2,7 @@
 title: 'Stop'
 description: 'A figure surrounded by silhouettes with glowing eyes.'
 pubDate: '25 October 2023'
-image: '/assets/2023/oct/stop.webp'
+image: '/assets/2023/oct/stop-cover.webp'
 offset: 'top'
 ---
 

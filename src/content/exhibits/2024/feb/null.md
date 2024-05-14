@@ -2,11 +2,11 @@
 title: 'Null'
 description: 'A silhouette of a human looking off in to a white void stood next to a black tree'
 pubDate: '27 February 2024'
-image: '/assets/2024/feb/null.webp'
+image: '/assets/2024/feb/null-cover.webp'
 offset: 'center'
 ---
 
-Null, Inciting the feeling of nothingness, a suspension, a clean slate, neither a beginning nor an end.
+Inciting the feeling of nothingness, a suspension, a clean slate, neither a beginning nor an end.
 
 <figure>
   <img src="/assets/2024/feb/null.webp" alt="A silhouette of a human looking off in to a white void stood next to a black tree" />

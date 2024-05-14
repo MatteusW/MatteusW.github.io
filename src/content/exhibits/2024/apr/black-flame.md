@@ -2,7 +2,7 @@
 title: 'Black Flame'
 description: 'A model of a black tree made from wood, chicken wire, paper-mâché, acrylic paint'
 pubDate: '14 April 2024'
-image: '/assets/2024/apr/black-flame.webp'
+image: '/assets/2024/apr/black-flame-cover.webp'
 offset: 'bottom'
 ---
 

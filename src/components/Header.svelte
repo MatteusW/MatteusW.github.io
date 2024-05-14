@@ -31,7 +31,7 @@
 		<ul class="w-full">
 			<li class="flex flex-row justify-between w-full">
 				<a href="/">{SITE_TITLE}</a>
-				<button id="nav-button" on:click={toggleNav}>
+				<button id="nav-button" on:click={toggleNav} aria-label="toggle menu">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="24"
