@@ -1,17 +1,13 @@
 <script>
 	export let href;
 
-	let url = new URL(window.location.href);
+	// let url = new URL(window.location.href);
 
-	const subpath = url.pathname.match(/[^\/]+/g);
-	console.log(subpath);
+	// const subpath = url.pathname.match(/[^\/]+/g);
 </script>
 
-<a
-	{href}
-	class={$$props.class}
-	class:active={href === url.pathname || href === "/" + subpath?.[1]}
->
+<a {href} class={$$props.class}>
+	<!-- class:active={href === url.pathname || href === "/" + subpath?.[1]} -->
 	<slot />
 </a>
 

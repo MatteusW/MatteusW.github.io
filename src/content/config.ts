@@ -15,6 +15,7 @@ const exhibits = defineCollection({
 			.optional()
 			.transform((str) => (str ? new Date(str) : undefined)),
 		image: z.string().optional(),
+		offset: z.string()
 	}),
 });
 

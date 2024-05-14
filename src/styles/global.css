@@ -193,3 +193,29 @@ img.emoji {
 	vertical-align: -0.2em;
 	display: inline;
 }
+
+figcaption {
+	color: rgba(var(--gray-light), 60%);
+	font-size: 18px;
+	padding: 4px 0;
+}
+
+.skeleton {
+	animation: skeleton-loading 2s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+	0% {
+		background-color: hsla(233, 22%, 12%, 0.2);
+	}
+
+	100% {
+		background-color: hsla(233, 22%, 24%, 0.4);
+	}
+}
+
+img:after {
+	content: "";
+	display: block;
+	font-size: 12px;
+}
