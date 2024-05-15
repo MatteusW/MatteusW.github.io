@@ -93,6 +93,8 @@ const posts = (await getCollection("exhibits"))
 										height={360}
 										alt={post.data.description}
 										src={post.data.image}
+										decoding="async"
+										loading="lazy"
 										class={
 											"aspect-[2/1] object-cover skeleton skeleton-loading"
 										}
