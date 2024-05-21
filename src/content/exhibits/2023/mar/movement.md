@@ -13,5 +13,5 @@ offset: 'top'
 
 <figure>
   <img src="/assets/2023/mar/movement-1.webp" alt="Two white line drawn hands that flow around the page" />
-  <figcaption>Movement 2024 • Digital • 3840cm x 2161cm</figcaption>
+  <figcaption>Movement 2024 • Digital • 3840cm x 2160cm</figcaption>
 </figure>
